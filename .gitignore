@@ -1,0 +1,15 @@
+# Sync codes hash to a SHA-256 of the normalised code; the code itself is
+# never stored. But the profiles behind those hashes are personal data —
+# do not commit them.
+data/*
+!data/.gitkeep
+
+node_modules/
+npm-debug.log*
+.DS_Store
+.env
+.env.*
+.vercel
+.wrangler
+.netlify
+*.tmp.*
